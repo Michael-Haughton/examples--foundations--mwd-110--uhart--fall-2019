@@ -1,0 +1,32 @@
+/* * {
+   border: 1px solid black;
+} */
+
+nav {
+   border: 1px solid black;
+}
+
+/*Remove bullets from lists*/
+nav ul {
+   list-style-type: none;
+}
+
+/*Have each item in the nav be rendered in line*/
+nav ul li {
+   width: 33%;
+   display: inline-block;
+}
+
+nav ul li a {
+   padding: 100px 0;
+   display: block;
+   color: black;
+}
+
+a {
+   text-decoration: none;
+}
+
+a:hover {
+   background-color: lightgrey;
+}
