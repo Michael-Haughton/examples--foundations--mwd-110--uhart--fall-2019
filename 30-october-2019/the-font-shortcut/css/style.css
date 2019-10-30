@@ -1,0 +1,24 @@
+:root {
+   font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: Staatliches, cursive;
+   letter-spacing: 4px;
+}
+
+div {
+   /*Set the font size to 150% of the root font size, which is 16 pixels.*/
+   font-size: 1.5rem;
+
+   /*Only applies to lowercase characters.*/
+   font-variant: small-caps;
+
+   /*Equivalent to bold, just like 400 is equivalent to normal, and 900 to black.*/
+   font-weight: 700;
+}
