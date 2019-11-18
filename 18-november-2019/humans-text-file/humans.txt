@@ -1,0 +1,10 @@
+/* SITE */
+
+Last update: YYYY/MM/DD
+Standards: HTML5, CSS3,..
+Components: Modernizr, jQuery, etc.
+Software: Software used for the development
+Image of whatever: https://www.whatever.com
+   by: Edbob
+Image of another whatever: https://www.anotherwhatever.com
+   by: Edbob’s brother
