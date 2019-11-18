@@ -1,0 +1,30 @@
+ul {
+   list-style-type: square;
+   margin-right: 3rem;
+   text-align: right;
+   font-size: 3rem;
+}
+
+li:first-of-type {
+   color: red;
+}
+
+li:first-of-type > span {
+   color: green;
+}
+
+li:nth-child(2) {
+   color: purple;
+}
+
+li:nth-child(2) > span {
+   color: blue;
+}
+
+li:last-of-type {
+   color: yellow;
+}
+
+li:last-of-type > span {
+   color: pink;
+}
