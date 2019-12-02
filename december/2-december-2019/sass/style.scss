@@ -1,13 +1,4 @@
-//// --------------------------------------------------------------------------
-/// Variables
-//// --------------------------------------------------------------------------
-$font-stack--headings: Solway, serif;
-$font-stack--reading-text: Raleway, sans-serif;
-$width--desktop: 960px;
-$width--tablet: 720px;
-$width--mobile: 400px;
-$color--test1: #00f;
-$color--test2: #fff;
+@import 'variables';
 
 html {
   background-color: $color--test2;
