@@ -1,6 +1,9 @@
 @import 'reset';
 @import 'variables';
 @import 'headings';
+@import 'header';
+@import 'nav';
+@import 'main';
 
 html {
   background-color: $color--test2;
