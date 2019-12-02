@@ -1,0 +1,41 @@
+$height--body: 1px;
+
+body {
+   height: $height--body;
+}
+
+div {
+   position: fixed;
+   opacity: .9;
+   width: 200px;
+   height: 200px;
+}
+
+div:nth-child(2) {
+   background-color: red;
+   top: 0;
+   left: 0;
+}
+
+div:nth-child(3) {
+   background-color: green;
+   top: 0;
+   right: 0;
+}
+
+div:nth-child(4) {
+   background-color: blue;
+   bottom: 0;
+   left: 0;
+}
+
+div:nth-child(5) {
+   background-color: pink;
+   bottom: 0;
+   right: 0;
+}
+
+h1,
+p {
+   text-align: center;
+}
