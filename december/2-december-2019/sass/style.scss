@@ -1,0 +1,43 @@
+//// --------------------------------------------------------------------------
+/// Variables
+//// --------------------------------------------------------------------------
+$font-stack--headings: Solway, serif;
+$font-stack--reading-text: Raleway, sans-serif;
+$width--desktop: 960px;
+$width--tablet: 720px;
+$width--mobile: 400px;
+$color--test1: #00f;
+$color--test2: #fff;
+
+html {
+  background-color: $color--test2;
+}
+
+body {
+  margin: auto;
+  background-color: $color--test1;
+  width: $width--desktop;
+  font-family: $font-stack--reading-text;
+
+  @media (max-width: $width--desktop) {
+    width: $width--tablet;
+  }
+
+  @media (max-width: $width--tablet) {
+    width: $width--mobile;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-stack--headings;
+}
+
+h1,
+p {
+  text-align: center;
+}
