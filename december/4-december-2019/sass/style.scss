@@ -1,0 +1,72 @@
+$color--primary: #bada55;
+
+header {
+  nav {
+    border: 1px solid $color--primary;
+
+    ul {
+      li {
+        color: $color--primary;
+      }
+    }
+  }
+}
+
+header {
+  > nav {
+    > ul {
+      color: red;
+    }
+  }
+}
+
+header > nav > ul {
+   color: red;
+}
+
+a {
+  &:link {
+    color: green;
+  }
+
+  &:visited {
+    text-decoration: overline;
+  }
+
+  &:hover {
+    border: 1px solid black;
+  }
+
+  &:active {
+    color: white;
+  }
+}
+
+
+p {
+  color: $color--primary;
+
+  &.urgent {
+    border: 3px solid darken($color--primary, 20%);
+
+    &.warning {
+      background-color: lighten($color--primary, 10%);
+    }
+  }
+}
+
+div {
+  background: {
+    color: transparent;
+    image: url("bg.png");
+  }
+}
+
+div {
+  padding: {
+    top: 20px;
+    bottom: 30px;
+  }
+
+  padding: 20px 30px;
+}

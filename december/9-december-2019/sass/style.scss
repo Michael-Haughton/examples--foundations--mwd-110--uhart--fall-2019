@@ -1,0 +1,19 @@
+@mixin transition( $property, $duration, $timing_function, $delay ) {
+   -webkit-transition: $property $duration $timing_function $delay;
+      -moz-transition: $property $duration $timing_function $delay;
+       -ms-transition: $property $duration $timing_function $delay;
+        -o-transition: $property $duration $timing_function $delay;
+           transition: $property $duration $timing_function $delay;
+}
+
+p {
+  width: 500px;
+  height: 500px;
+  border: 30px solid black;
+
+  @include transition(border, 3s, cubic-bezier(.35,1.46,.56,1.03), 0s);
+}
+
+p:hover {
+   border-color: transparent;
+}
